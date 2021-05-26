@@ -1,0 +1,22 @@
+{
+  "name": "node-16.2-crash",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "cls-hooked": "^4.2.2",
+    "dd-trace": "^0.31.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.2"
+  },
+  "devDependencies": {
+    "@types/cls-hooked": "^4.3.1",
+    "@types/node": "^14.14.14",
+    "typescript": "^4.2.2"
+  },
+  "engines": {
+    "node": "^16.1.0"
+  }
+}
